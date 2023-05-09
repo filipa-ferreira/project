@@ -25,6 +25,7 @@ header{
 
 header h1{
   color: #736002;
+  font-size: 1.6em;
 }
 
 img.logo{
@@ -89,9 +90,44 @@ article.contact{
   background-color: #403501;
   
 }
+
+
 article.contact p{
   color: #F2E205;
 }
+
+/* article.contact-form{
+  color: #F2E205;
+  font-size: 1.5em;
+  padding: 1.8em;
+  background-color: #403501;
+}
+a{
+  text-decoration: none;
+} */
+
+/* article {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+} */
+
+.form-grid {
+  background-color: #403501;
+  display: block;
+  text-decoration: none;
+  font-size: 1.6em;
+  text-align: center;
+  padding: 1.2em 2.8em 1.2em 2.8em;
+  border-radius: 5px;
+  color: #F2E205;
+  font-weight: bold;
+}
+
+.form:hover {
+  background-color: #736002;
+}
+
 
 @media screen and (min-width: 768px) {
   section.grid{

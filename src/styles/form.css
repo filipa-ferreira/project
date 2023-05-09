@@ -63,5 +63,15 @@ body{
     font-weight: bold;
   }
 
+  .link {
+    color: #A68B03;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    color: #F2E205;
+  }
+  
+
   
   

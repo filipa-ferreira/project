@@ -2,6 +2,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import '../../styles/form.css';
+import { Link } from 'react-router-dom/dist';
 
 export default function ContactForm() {
   const [formStatus, setFormStatus] = useState();
@@ -46,6 +47,7 @@ export default function ContactForm() {
     <section className='form'>
       <h1>Formulário de contato</h1>
       {formContent}
+      <Link to="/" className='link'>Voltar à página inicial</Link>
     </section>
   );
 }

@@ -6,6 +6,8 @@ import { Provider } from 'react-redux';
 import store from './App/store';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import ContactForm from './features/components/ContactForm';
+import NotFound from './features/components/NotFound';
+
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -15,11 +17,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <BrowserRouter>
 
       <Routes>
-        <Route path='/' element={<App/>} >
-          <Route path='/ContactForm' element={<ContactForm/>}/>
 
+        <Route path='/' element={<App/>} ></Route>
 
-        </Route>
+        <Route path='contactForm' element={<ContactForm/>}/>
+
+        <Route path='*' element={<NotFound/>}/>
+        
+
       </Routes>
 
       </BrowserRouter>

@@ -2,9 +2,11 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faHandPointer } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useRef, useState} from 'react';
 import { gsap } from 'gsap';
 import Menu from './Menu';
+import { Link } from 'react-router-dom';
 
 
 export default function HomePage() {
@@ -50,8 +52,8 @@ export default function HomePage() {
     <section>
     <header>
       <img className='logo' src="images/logo.png" alt="logo" />
-      <h1>Filipa Ferreira</h1>
-        <Menu/>
+      <h1>&lt;Filipa Ferreira/&gt;</h1>
+      <Menu/>
     </header>
     <section className='grid'>
       <article className='tag'>
@@ -86,11 +88,17 @@ export default function HomePage() {
         <p><FontAwesomeIcon icon={faPhone} /> +351 93 83 22 319</p>
       </article>
 
+
+      <article>
+      <Link className='form-grid' to="/contactForm">Formulário de contato<FontAwesomeIcon icon={faHandPointer} /></Link>
+        <p></p>
+      </article>
     
-    
+      {/* <Link className='form' to="/contactForm">
         <article className='contact-form'>
-        <h1>Formulário de contato</h1>
+        <h1>Formulário de contato<FontAwesomeIcon icon={faHandPointer} /></h1>
         </article>
+      </Link> */}
     
 
       <article className='c2xr1 welcome'>
