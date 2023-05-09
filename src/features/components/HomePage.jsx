@@ -7,7 +7,6 @@ import { gsap } from 'gsap';
 import Menu from './Menu';
 
 
-
 export default function HomePage() {
 
   // efeitos nas imagens
@@ -43,7 +42,8 @@ export default function HomePage() {
     );
   }, []);
 
-  //hamburguer menu
+  //hamburguer menu -> criada componente Menu.jsx
+
   
 
   return (
@@ -51,19 +51,6 @@ export default function HomePage() {
     <header>
       <img className='logo' src="images/logo.png" alt="logo" />
       <h1>Filipa Ferreira</h1>
-      {/* <nav className='buttons'>
-          <button className='menu-button' onClick={toggleMenu}>
-            Menu
-          </button>
-          <ul className={menuAberto ? 'menu menu-open' : 'menu'}>
-            <li>
-              <a href='#'>Sobre Mim</a>
-            </li>
-            <li>
-              <a href='#'>Portfolio</a>
-            </li>
-          </ul>
-        </nav> */}
         <Menu/>
     </header>
     <section className='grid'>
@@ -98,9 +85,14 @@ export default function HomePage() {
         <p><FontAwesomeIcon icon={faEnvelope} /> info@filipaferreira.dev</p>
         <p><FontAwesomeIcon icon={faPhone} /> +351 93 83 22 319</p>
       </article>
-      <figure className='contact'>
-        <img src="images/form.jpg" alt="form-contact"/>
-      </figure>
+
+    
+    
+        <article className='contact-form'>
+        <h1>Formulário de contato</h1>
+        </article>
+    
+
       <article className='c2xr1 welcome'>
         <h1 className='title'>Obrigada pela atenção!</h1>
       </article>

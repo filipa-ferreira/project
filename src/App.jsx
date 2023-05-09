@@ -7,9 +7,9 @@ function App() {
   
 
   return (
-    <div className="App">
+    <section className="App">
       <HomePage/>
-    </div>
+    </section>
   )
 }
 
