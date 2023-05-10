@@ -27,6 +27,7 @@ export default function Menu() {
         <Nav className="mr-auto">
           <Nav.Link href="#sobre-mim">Sobre mim</Nav.Link>
           <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+          <Nav.Link href="#contato">Contato</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

@@ -1,0 +1,40 @@
+{
+    "skills":[
+        {
+            "id":0,
+            "title": "Liderança",
+            "imageUrl":"lideranca.png",
+            "description":"Responsável pela gestão de uma equipa com 100 colaboradores em turnos de 24 horas numa indústria transformadora que me permitiu também o desenvolvimento e aperfeiçoamento de muitas outras habilidades para conseguir manter a equipa unida e motivada. Durante essa gestão, consegui aprimorar a minha capacidade de organização e planeamento, resolução de problemas e trabalho sob pressão de forma inspiradora e envolvendo toda a equipa de forma a conseguirmos os melhores resultados. Desenvolvi o meu potencial de equilíbrio entre os objetivos propostos e, pelo mérito de uma equipa motivada, envolvida e reconhecida, conseguimos alcançar um nítido aumento de produtividade e qualidade no produto o que convergiu num aumento da satisfação do cliente."
+        },
+        {
+            "id":1,
+            "title": "Comunicação",
+            "imageUrl":"comunicacao.png",
+            "description":"Nas várias experiências passadas, tanto em consultoria como em ambiente industrial, aprimorei ainda mais a minha capacidade de estabelecer relações interpessoais. Além disso, enquanto gestora de uma equipa, foram muitas as vezes em que me deparei com conflitos de interesses e ideias que rapidamente tive de gerir para manter o bom ambiente de trabalho entre a equipa. Também enquanto formadora desenvolvi ótimas capacidades de comunicação e à vontade para exprimir e debater ideias."
+        },
+        {
+            "id":2,
+            "title": "Flexibilidade",
+            "imageUrl":"flexibilidade.png",
+            "description":"Fácil adaptação a qualquer ambiente de trabalho, exercendo qualquer tarefa que me seja proposta de forma proativa e comprometida com o objetivo da organização."
+        },
+        {
+            "id":3,
+            "title": "Resiliência",
+            "imageUrl":"resiliencia.png",
+            "description":"Forte capacidade de adaptação em situações críticas. Enquanto gestora de produção numa indústria, todos os dias existem situações críticas e imprevistos, desafios e pressão constante a nível de produtividade e eficiência."
+        },
+        {
+            "id":4,
+            "title": "Proatividade",
+            "imageUrl":"proatividade.png",
+            "description":"Forte capacidade de antecipação de problemas e resolução imediata dos mesmos. De forma a combater o absentismo e turnover bem como reconhecimento pelo trabalho da equipa fui responsável pela implementação de um sistema de prémios de assiduidade e produtividade na indústria."
+        },
+        {
+            "id":5,
+            "title": "Empatia",
+            "imageUrl":"empatia.png",
+            "description":"A diversidade de contatos mantidos enquanto na minha vida profissional, tanto na consultoria como numa indústria com um elevado número de trabalhadores permitiu-me desenvolver ainda mais a minha capacidade de empatia pelo próximo. Adquiri mais competências no trabalho em equipa, aceitando e ouvindo todas as opiniões assim como facilmente ser capaz de partilhar a minha."
+        }
+    ]
+}

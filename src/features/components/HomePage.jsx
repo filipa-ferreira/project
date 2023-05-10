@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
 import { faHandPointer } from '@fortawesome/free-solid-svg-icons';
-import React, { useEffect, useRef, useState} from 'react';
+import React, { useEffect, useRef} from 'react';
 import { gsap } from 'gsap';
 import Menu from './Menu';
 import { Link } from 'react-router-dom';
@@ -46,7 +46,6 @@ export default function HomePage() {
 
   //hamburguer menu -> criada componente Menu.jsx
 
-  
 
   return (
     <section>
@@ -60,7 +59,7 @@ export default function HomePage() {
         <p>&lt;&gt;</p>
       </article>
       <article className='c2xr1 text'>
-        <p ref={textRef}>Durante a minha vida profissional na indústria e na gestão de serviços, deparei-me constantemente com a necessidade de otimizar processos e utilizar a tecnologia para alcançar melhores resultados.</p>
+        <p ref={textRef}>Durante a minha vida profissional tanto na indústria como na gestão de serviços, deparei-me constantemente com a necessidade de otimizar processos e utilizar a tecnologia para alcançar melhores resultados.</p>
       </article>
       <figure className='c2xr1'>
         <img src="images/computer.jpg" alt="computer"/>
@@ -69,7 +68,7 @@ export default function HomePage() {
         <img src="images/vscode.jpg" alt="vscode"/>
       </figure>
       <article className='c1xr2 welcome'>
-        <h1 className='title'>Bem-vindo!</h1>
+        <p className='title'>Bem-vindo!</p>
       </article>
       <figure className='c2xr2'>
         <img src="images/programming.jpg" alt="to-program"/>
@@ -81,29 +80,19 @@ export default function HomePage() {
         <img src="images/steps.jpg" alt="steps"/>
       </figure>
       <article className='c2xr1 text'>
-        <p ref={textRef}>A fase pandémica onde a tecnologia foi o nosso maior suporte foi o gatilho para procurar saber mais. </p>
+        <p ref={textRef}>A fase pandémica, onde a tecnologia foi o nosso maior suporte a todos os níveis, foi o gatilho para procurar mais informação e conhecimento na área. Assim, propus-me a formação especializada para aprimorar as minhas habilidades e conhecimentos.</p>
       </article>
-      <article className='c2xr1 contact'>
+      <article className='c5xr1 contact'>
         <p><FontAwesomeIcon icon={faEnvelope} /> info@filipaferreira.dev</p>
         <p><FontAwesomeIcon icon={faPhone} /> +351 93 83 22 319</p>
       </article>
-
-
-      <article>
+      {/* <article>
       <Link className='form-grid' to="/contactForm">Formulário de contato<FontAwesomeIcon icon={faHandPointer} /></Link>
         <p></p>
       </article>
-    
-      {/* <Link className='form' to="/contactForm">
-        <article className='contact-form'>
-        <h1>Formulário de contato<FontAwesomeIcon icon={faHandPointer} /></h1>
-        </article>
-      </Link> */}
-    
-
       <article className='c2xr1 welcome'>
         <h1 className='title'>Obrigada pela atenção!</h1>
-      </article>
+      </article> */}
       <article className='tag'>
         <p>&lt;/&gt;</p>
       </article>

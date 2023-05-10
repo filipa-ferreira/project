@@ -1,31 +1,25 @@
-body{
-    background-color: #A68B03;
-   
-}
-
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 50px auto;
     padding: 20px;
-    background-color: #403501;
-    border: 1px solid #F2E205;
+    background-color: #858382;
+    border: 1px solid #ac66f2;
     border-radius: 5px;
-    box-shadow: 0 2px 5px #F2E205;
     max-width: 600px;
   }
   
-  .form h1 {
+.form h1 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #F2E205;
+    color: #F2A649;
   }
   
   .form label {
     font-size: 1.2rem;
     margin-bottom: 10px;
-    color: #F2E205;
+    color: #F2A649;
   }
   
   .form input[type="text"],
@@ -34,7 +28,7 @@ body{
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #F2E205;
+    border: 1px solid #F2A649;
     border-radius: 5px;
   }
   
@@ -43,8 +37,8 @@ body{
   }
   
   .form input[type="submit"] {
-    background-color: #F2E205;
-    color: #403501;
+    background-color: #F2A649;
+    color: #0a0240;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -54,22 +48,22 @@ body{
   }
   
   .form input[type="submit"]:hover {
-    background-color: #A68B03;
+    background-color: #ac66f2;
   }
 
   .success, .error {
     font-size: 1.2em;
-    color: #A68B03;
+    color: #F2A649;
     font-weight: bold;
   }
 
   .link {
-    color: #A68B03;
+    color: #0a0240;
     text-decoration: none;
   }
   
   .link:hover {
-    color: #F2E205;
+    color: #F2A649;
   }
   
 
