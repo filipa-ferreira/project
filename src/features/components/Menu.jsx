@@ -29,7 +29,7 @@ export default function Menu() {
           {/* <Nav.Link href="#sobre-mim">Sobre mim</Nav.Link>
           <Nav.Link href="#portfolio">Portfolio</Nav.Link>
           <Nav.Link className='form-grid' to="/contactForm">Contato</Nav.Link> */}
-          <Link className='btn' to="#">Sobre mim</Link>
+          <Link className='btn' to="/skillsDashboard">Sobre mim</Link>
           <Link className='btn' to="#">Portfolio</Link>
           <Link className='btn' to="/contactForm">Contato</Link>
 

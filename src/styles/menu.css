@@ -13,9 +13,12 @@
 .navbar-nav .btn {
   font-size: .6em;
   font-weight: 900;
-  background-color: #FF8B13;
-  color: #542967;
-  box-shadow: 4px 4px 3px #ac66f2;
+  /* background-color: #FF8B13; */
+  background-color: #000;
+  /* color: #542967; */
+  color: #fff;
+  box-shadow: 4px 4px 3px #999089;
+  /* box-shadow: 4px 4px 3px #ac66f2; */
   padding: .6em;
   text-decoration: none;
   margin-right: 10px;
@@ -23,13 +26,14 @@
 }
 
 .navbar-nav .btn:hover {
-  color: #ac66f2;
+  color: #775cde;
+  /* color: #ac66f2; */
   text-decoration: none;
 }
 
 .navbar-nav .btn.active,
 .navbar-nav .btn:focus {
-  color: #ac66f2;
+  color: #775cde;
   box-shadow: none;
   outline: none;
 }
@@ -39,8 +43,10 @@
 .navbar-toggler {
   border: none;
   font-size: 20px;
-  color: #542967;
-  background-color: #FF8B13;
+  /* color: #542967; */
+  color: #000;
+  /* background-color: #FF8B13; */
+  background-color: #775cde;
   
   padding: 0;
   width: 40px;
