@@ -4,22 +4,23 @@
     align-items: center;
     margin: 50px auto;
     padding: 20px;
-    background-color: #858382;
+    background-color: #542967;
     border: 1px solid #ac66f2;
     border-radius: 5px;
     max-width: 600px;
   }
   
+ 
 .form h1 {
     font-size: 2rem;
     margin-bottom: 20px;
-    color: #F2A649;
+    color: #FF8B13;
   }
   
   .form label {
     font-size: 1.2rem;
     margin-bottom: 10px;
-    color: #F2A649;
+    color: #FF8B13;
   }
   
   .form input[type="text"],
@@ -28,7 +29,7 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #F2A649;
+    border: 1px solid #ac66f2;
     border-radius: 5px;
   }
   
@@ -37,8 +38,8 @@
   }
   
   .form input[type="submit"] {
-    background-color: #F2A649;
-    color: #0a0240;
+    background-color: #FF8B13;
+    color: #542967;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -58,12 +59,12 @@
   }
 
   .link {
-    color: #0a0240;
+    color: #F2A649;
     text-decoration: none;
   }
   
   .link:hover {
-    color: #F2A649;
+    color: #ac66f2;
   }
   
 
