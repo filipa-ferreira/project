@@ -2,6 +2,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 // import { faHandPointer } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useRef} from 'react';
 import { gsap } from 'gsap';
@@ -85,6 +86,7 @@ export default function HomePage() {
       <article className='c5xr1 contact'>
         <p><FontAwesomeIcon icon={faEnvelope} /> info@filipaferreira.dev</p>
         <p><FontAwesomeIcon icon={faPhone} /> +351 93 83 22 319</p>
+        <p><FontAwesomeIcon icon={faLinkedin} /> Linkedin</p>
       </article>
 
       {/* <article>
