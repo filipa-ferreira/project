@@ -1,13 +1,18 @@
 
+import { Outlet } from 'react-router-dom'
 import './App.css'
-import HomePage from './features/components/HomePage'
+import Footer from './features/components/Footer'
+import Header from './features/components/Header'
+
+
 
 function App() {
   
   return (
     <section className="App">
-      <HomePage/>
-      {/* <footer>&copy; Filipa Ferreira, 2023</footer> */}
+      <Header/>
+        <Outlet/>
+      <Footer/>
     </section>
   )
 }

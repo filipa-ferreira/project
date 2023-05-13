@@ -1,13 +1,18 @@
+body{
+  background-color: #f5a560;
+}
+
 .form {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 50px auto;
     padding: 20px;
-    background-color: #55204a;
-    border: 1px solid #f49d9e;
+    background-color: #755cde;
+    /* border: 1px solid #f5a560; */
     border-radius: 5px;
     max-width: 600px;
+   
   }
   
  
@@ -29,7 +34,7 @@
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #f49d9e;
+    border: 1px solid #f5a560;
     border-radius: 5px;
   }
   
@@ -39,7 +44,7 @@
   
   .form input[type="submit"] {
     background-color: #f5a560;
-    color: #55204a;
+    color: #fff;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
@@ -49,24 +54,17 @@
   }
   
   .form input[type="submit"]:hover {
-    background-color: #755cde;
+    background-color: #62c4b7;
   }
 
   .success, .error {
+    height: 46vh;
     font-size: 1.2em;
-    color: #755cde;
+    color: #f5a560;
     font-weight: bold;
+    
   }
 
-  .link {
-    color: #f5a560;
-    text-decoration: none;
-  }
-  
-  .link:hover {
-    color: #755cde;
-  }
-  
 
   
   

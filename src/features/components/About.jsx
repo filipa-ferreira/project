@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import { useDispatch } from 'react-redux';
 
-export default function SkillsDasboard() {
+export default function About() {
 
   let dispatch = useDispatch();
 
@@ -13,6 +13,9 @@ export default function SkillsDasboard() {
   }, []);
   
   return (
-    <div>SkillsDasboard</div>
+    <section>
+      <h1>titulo</h1>
+    </section>
+    
   )
 }

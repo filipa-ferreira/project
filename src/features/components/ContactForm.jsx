@@ -2,7 +2,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import '../../styles/form.css';
-import { Link } from 'react-router-dom/dist';
 
 export default function ContactForm() {
   const [formStatus, setFormStatus] = useState();
@@ -24,10 +23,12 @@ export default function ContactForm() {
   let formContent = null;
   switch (formStatus) {
     case 'success':
-      formContent = <p className='success'>Obrigado pelo seu contato!</p>;
+      formContent =
+        <p className='success'>Obrigado pelo seu contato!</p>;
       break;
     case 'error':
-      formContent = <p className='error'>Ocorreu um erro, tente novamente mais tarde.</p>;
+      formContent =
+      <p className='error'>Ocorreu um erro, tente novamente mais tarde.</p>;
       break;
     default:
       formContent = (
@@ -47,7 +48,6 @@ export default function ContactForm() {
     <section className='form'>
       <h1>Formulário de contato</h1>
       {formContent}
-      <Link to="/" className='link'>Voltar à página inicial</Link>
     </section>
   );
 }

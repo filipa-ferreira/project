@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
   }
 
   h1 {
@@ -14,14 +14,3 @@
     margin-bottom: 1rem;
   }
   
-  Link.not-found-link{
-    font-size: 1.5rem;
-    color: #62c4b7;
-    text-decoration: none;
-    transition: color 0.2s ease-in-out;
-    margin-top: 1rem;
-  }
-  
-  Link.not-found-link:hover {
-    color: #55204a;
-  }
