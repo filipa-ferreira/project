@@ -8,8 +8,8 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import NotFound from './pages/NotFound';
 import ContactForm from './features/components/ContactForm';
-import SkillsDashboard from './features/components/skillsDashboard';
 import SkillsDescription from './features/components/SkillsDescription';
+import About from './features/components/About';
 
 
 
@@ -23,9 +23,9 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/' element={<App/>}>
           <Route index element={<HomePage/>}/>
           <Route path='/homepage' element={<HomePage/>}/>
-          <Route path='/skillsDashboard' element={<SkillsDashboard/>}/>
+          <Route path='/about' element={<About/>}/>
           <Route path='/description/:id' element={<SkillsDescription/>}/>
-          {/* falta portfolio */}
+          
           <Route path='/contactForm' element={<ContactForm/>}/>
           <Route path='*' element={<NotFound/>}/>
 

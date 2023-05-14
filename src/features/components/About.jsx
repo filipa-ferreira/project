@@ -5,7 +5,8 @@ import SkillsList from "./SkillsList";
 
 
 
-export default function SkillsDashboard() {
+
+export default function About() {
 
     let dispatch = useDispatch();
 
