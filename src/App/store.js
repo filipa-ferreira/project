@@ -1,8 +1,9 @@
 import { configureStore } from '@reduxjs/toolkit';
-import formSlice from '../features/form/formSlice';
+import skillsSlice from '../features/skills/skillsSlice';
+
 
 export default configureStore({
   reducer: {
-    form: formSlice,
+    list: skillsSlice,
   }
 });

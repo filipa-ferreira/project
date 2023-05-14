@@ -30,7 +30,7 @@ export default function HomePage() {
         <p>Surgindo a necessidade de colaborar com desenvolvedores de software numa indústria conserveira para criar uma aplicação de controlo do processo e eficiência do mesmo, suscitou a minha curiosidade pela área.</p>
       </article>
       <figure className='www'>
-        <img src="images/www.jpg" alt="steps"/>
+        <img src="/images/www.jpg" alt="web"/>
       </figure>
       <article className='c2xr1 text three'>
         <p>A fase pandémica, onde a tecnologia foi o nosso maior suporte a todos os níveis, foi o gatilho para procurar mais informação e conhecimento na área. Assim, propus-me a formação especializada para aprimorar as minhas habilidades e conhecimentos.</p>

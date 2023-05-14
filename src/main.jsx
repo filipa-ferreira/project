@@ -7,8 +7,9 @@ import store from './App/store';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import NotFound from './pages/NotFound';
-import About from './features/components/About';
 import ContactForm from './features/components/ContactForm';
+import SkillsDashboard from './features/components/skillsDashboard';
+import SkillsDescription from './features/components/SkillsDescription';
 
 
 
@@ -22,7 +23,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path='/' element={<App/>}>
           <Route index element={<HomePage/>}/>
           <Route path='/homepage' element={<HomePage/>}/>
-          <Route path='/about' element={<About/>}/>
+          <Route path='/skillsDashboard' element={<SkillsDashboard/>}/>
+          <Route path='/description/:id' element={<SkillsDescription/>}/>
           {/* falta portfolio */}
           <Route path='/contactForm' element={<ContactForm/>}/>
           <Route path='*' element={<NotFound/>}/>
