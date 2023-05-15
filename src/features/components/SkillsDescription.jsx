@@ -7,10 +7,14 @@ export default function SkillsDescription() {
     let params = useParams();
     let navigate = useNavigate();
 
-    let skill = useSelector(state=>state.list.skills.find(s => s.id == params.id));
+    let skill = useSelector(state=>state.softSkills.skills.find(s => s.id == params.id));
+
+    function handleGoBack() {
+      navigate(-1);
+  }
   return (
     <article>
-        <button onClick={() => navigate(-1)}>back</button>
+        <button onClick={handleGoBack}>back</button>
         <h1>{skill.title}</h1>
         <p>{skill.description}</p>
         

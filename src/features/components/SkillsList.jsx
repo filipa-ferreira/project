@@ -5,7 +5,7 @@ import Skill from './Skill';
 
 export default function SkillsList() {
 
-    const {skills} =useSelector(state=>state.list);
+    const {skills} =useSelector(state=>state.softSkills);
 
 
   return (

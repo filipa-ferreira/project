@@ -33,7 +33,7 @@ export default function Header() {
       <Navbar.Collapse id="responsive-navbar-nav" className={menuOpen ? 'show' : ''}>
         <Nav className="mr-auto">
           <Link className='btn' to="/homepage">Início</Link>
-          <Link className='btn' to="/skillsDashboard">Sobre mim</Link>
+          <Link className='btn' to="/about">Sobre mim</Link>
           <Link className='btn' to="#">Portfolio</Link>
           <Link className='btn' to="/contactForm">Contato</Link>
         </Nav>

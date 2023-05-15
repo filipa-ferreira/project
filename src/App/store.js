@@ -1,9 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
-import skillsSlice from '../features/skills/skillsSlice';
+import hardSkillsSlice from '../features/hardSkills/hardSkillsSlice';
+import skillsSlice from '../features/softSkills/skillsSlice';
 
 
 export default configureStore({
   reducer: {
-    list: skillsSlice,
+    softSkills: skillsSlice,
+    hardSkills: hardSkillsSlice,
   }
 });

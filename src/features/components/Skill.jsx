@@ -1,12 +1,11 @@
-import React from 'react'
-import { useDispatch } from 'react-redux'
+
 import { Link } from 'react-router-dom';
 
 export default function Skill({skill}) {
 
-    let dispatch = useDispatch();
+    
 
-    let {id, title, imageUrl, description} = skill;
+    let {id, title, imageUrl} = skill;
 
     // console.log(skill);
 
