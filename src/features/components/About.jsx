@@ -1,5 +1,5 @@
-import { useEffect } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useEffect, useState } from "react";
+import { useDispatch} from "react-redux";
 import { getHardSkills } from "../hardSkills/hardSkillsSlice";
 import { getSkills } from "../softSkills/skillsSlice";
 import HardSkillsList from "./HardSkillsList";
@@ -10,18 +10,26 @@ export default function About() {
 
     let dispatch = useDispatch();
 
+    const [error, setError] = useState();
+
     useEffect(()=>{
         fetch ('http://localhost:3000/softSkills')
         .then(resp => resp.json())
         .then(data => dispatch(getSkills(data)))
-        .catch (error => console.log('ocorreu um erro'));
+        .catch((error) => {
+          console.log("Ocorreu um erro:", error);
+          setError("Ocorreu um erro. Tente novamente mais tarde.");
+        });
     }, []);
 
     useEffect(()=>{
       fetch ('http://localhost:3000/hardSkills')
       .then(resp => resp.json())
       .then(data => dispatch(getHardSkills(data)))
-      .catch (error => console.log('ocorreu um erro'));
+      .catch((error) => {
+        console.log("Ocorreu um erro:", error);
+        setError("Ocorreu um erro. Tente novamente mais tarde.");
+      });
   }, []);
 
 

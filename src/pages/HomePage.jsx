@@ -12,7 +12,7 @@ export default function HomePage() {
         <p>&lt;&gt;</p>
       </article>
       <article className='c2xr1 text one'>
-        <p>Durante a minha vida profissional tanto na indústria como na gestão de serviços, deparei-me constantemente com a necessidade de otimizar processos e utilizar a tecnologia para alcançar melhores resultados.</p>
+        <p>Durante a minha vida profissional tanto na indústria como na consultoria e gestão de serviços, deparei-me constantemente com a necessidade de otimizar processos e utilizar a tecnologia para alcançar melhores resultados.</p>
       </article>
       <figure className='c2xr1'>
         <img src="/images/computer.jpg" alt="computer"/>

@@ -2,12 +2,9 @@
 .navbar-nav .btn {
   font-size: .6em;
   font-weight: 900;
-  /* background-color: #FF8B13; */
   background-color: #000;
-  /* color: #542967; */
   color: #fff;
   box-shadow: 2px 2px 1px #999089;
-  /* box-shadow: 4px 4px 3px #ac66f2; */
   padding: .6em;
   text-decoration: none;
   margin-right: 10px;
@@ -16,7 +13,6 @@
 
 .navbar-nav .btn:hover {
   color: #775cde;
-  /* color: #ac66f2; */
   text-decoration: none;
 }
 
@@ -30,9 +26,7 @@
 .navbar-toggler {
   border: none;
   font-size: 20px;
-  /* color: #542967; */
   color: #000;
-  /* background-color: #FF8B13; */
   background-color: #775cde;
   
   padding: 0;

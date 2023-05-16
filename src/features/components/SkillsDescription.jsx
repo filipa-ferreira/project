@@ -13,10 +13,11 @@ export default function SkillsDescription() {
       navigate(-1);
   }
   return (
-    <article>
-        <button onClick={handleGoBack}>back</button>
+    <article className="skills-description">
+        
         <h3>{skill.title}</h3>
         <p>{skill.description}</p>
+        <button onClick={handleGoBack}>Regressar</button>
         
     </article>
   )

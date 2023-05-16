@@ -120,3 +120,51 @@ article{
     align-items: center;
 
 }
+
+
+article.skills-description {
+    width: 50vw;
+    height: 60vh;
+    
+    background-color: #755cde;
+
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+    margin: 57px auto;
+
+    
+
+  }
+  
+  .skills-description button {
+    background-color: #55204a;
+    color: #fff;
+    padding: 10px 20px;
+    
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: auto;
+    
+    
+  }
+  
+  .skills-description h3 {
+    color: #55204a;
+    font-size: 1.5em;
+    background-color: #f5a560;
+    padding: .8em;
+    
+    margin-bottom: 20px;
+    
+  }
+  
+  .skills-description p {
+    color: #f5a560;
+    text-align: justify;
+
+    margin-bottom: 20px;
+    
+  }
+  
