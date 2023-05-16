@@ -36,4 +36,37 @@
             "imageUrl":"empatia.png",
             "description":"A diversidade de contatos mantidos enquanto na minha vida profissional, tanto na consultoria como numa indústria com um elevado número de trabalhadores permitiu-me desenvolver ainda mais a minha capacidade de empatia pelo próximo. Adquiri mais competências no trabalho em equipa, aceitando e ouvindo todas as opiniões assim como facilmente ser capaz de partilhar a minha."
         }
-    ]}
+    ],
+    "hardSkills":[
+        {
+            "id":6,
+            "title": "HTML",
+            "imageUrl": "html.jpg"
+        },
+        {
+            "id":7,
+            "title": "CSS",
+            "imageUrl": "css.png"
+        },
+        {
+            "id":8,
+            "title": "SASS",
+            "imageUrl": "sass.png"
+        },
+        {
+            "id":9,
+            "title": "Bootstrap",
+            "imageUrl": "bootstrap.png"
+        },
+        {
+            "id":10,
+            "title": "Javascript",
+            "imageUrl": "javascript.png"
+        },
+        {
+            "id":11,
+            "title": "React",
+            "imageUrl": "react.png"
+        }
+    ]
+}

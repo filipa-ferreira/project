@@ -9,6 +9,7 @@ export default function SkillsList() {
 
 
   return (
+    <section className='container-soft-skills'>
     <section className='grid-skills'>
         {
             skills.map(s => <Skill
@@ -16,6 +17,7 @@ export default function SkillsList() {
                             skill={s}
                             />)
         }
+    </section>
     </section>
   )
 }

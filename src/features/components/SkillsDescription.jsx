@@ -15,7 +15,7 @@ export default function SkillsDescription() {
   return (
     <article>
         <button onClick={handleGoBack}>back</button>
-        <h1>{skill.title}</h1>
+        <h3>{skill.title}</h3>
         <p>{skill.description}</p>
         
     </article>

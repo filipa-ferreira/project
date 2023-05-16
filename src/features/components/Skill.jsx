@@ -11,10 +11,10 @@ export default function Skill({skill}) {
 
   return (
     <article>
-        <Link to={`/description/${id}`}>
-        <h1>{title}</h1>
+        <Link className="link-no-underline" to={`/description/${id}`}>
+        <h3 className='skill-title'>{title}</h3>
+        <img className='skills' src={`/images/${imageUrl}`} alt={title}/>
         </Link>
-        <img src={`/images/${imageUrl}`} alt={title}/>
     </article>
   )
 }
