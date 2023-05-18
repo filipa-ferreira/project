@@ -15,6 +15,7 @@ export default function SkillsList() {
             skills.map(s => <Skill
                             key={s.id}
                             skill={s}
+                            
                             />)
         }
     </section>

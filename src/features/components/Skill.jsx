@@ -10,7 +10,7 @@ export default function Skill({skill}) {
     // console.log(skill);
 
   return (
-    <article>
+    <article className="card card-soft-skills">
         <Link className="link-no-underline" to={`/description/${id}`}>
         <h3 className='skill-title'>{title}</h3>
         <img className='skills' src={`/images/${imageUrl}`} alt={title}/>

@@ -11,7 +11,9 @@ function App() {
   return (
     <section className="App">
       <Header/>
+        <section className='content-container'>
         <Outlet/>
+        </section>
       <Footer/>
     </section>
   )

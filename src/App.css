@@ -5,24 +5,37 @@
   box-sizing: border-box;
 }
 
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: space-between;
+}
+
+
+.content-container {
+  flex-grow: 1;
+}
+
+
 body{
-  background-color: #fff;
+  background-color: #fff7f0;
   font-family: 'Roboto', sans-serif;
   text-align: center;
 }
 
 header{
-  height: 35vh;
+  height: 45vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #fff;
+  background-color: #fff7f0;
   font-size: 1.5em;
   padding-left: 20px;
 }
 
 header h1{
-  color: #000;
+  color: #030303;
   font-size: 2em;
 }
 
@@ -58,32 +71,32 @@ figure img{
 article.tag{
   align-items: center;
   font-size: 3em;
-  color: #fff;
+  color: #fff7f0;
   background-color: #755cde;
   font-weight: 900;
 
 }
 
 article.text{
-  color: #000;
+  color: #030303;
   font-size: .9em;
   
 }
 article.one{
-  background-color: #f5a560;
+  background-color: #f6a560;
   
 }
 article.two{
-  background-color: #62c4b7;
+  background-color: #61c4b7;
 }
 article.three{
-  background-color: #f49d9e;
+  background-color: #f39e9e;
 }
 
 article.welcome{
   font-size: 1.5em;
-  background-color: #ea7564;
-  color: #fff;
+  background-color: #eb7565;
+  color: #fff7f0;
 }
 
 h1.title{
@@ -93,8 +106,8 @@ h1.title{
 
 article.contact{
   font-size: 1.2em;
-  background-color: #55204a;
-  color: #000;
+  background-color: #552049;
+  color: #030303;
   font-size: 1.2em;
 }
 
@@ -108,7 +121,7 @@ article.contact p{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: 25vh;
-    padding-bottom: 6.5vh;
+    /* padding-bottom: 6.5vh; */
   }
   
 .text, .initial, .www{
@@ -126,7 +139,7 @@ article.contact p{
     grid-auto-rows: 20vh;
     gap: 5px;
     
-    padding-bottom: 6.5vh;
+    /* padding-bottom: 6.5vh; */
   }
 
   .c2xr2{
@@ -155,15 +168,15 @@ article.contact p{
 }
 
 .container-footer {
-  position: relative;
+  
+  height: 6vh;
+  background-color: #fff7f0;
+  color: #030303;
+  font-size: 1em;
 }
 
 footer {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 6vh;
+  
   background-color: #fff;
   padding: 10px;
   margin-top: auto;
