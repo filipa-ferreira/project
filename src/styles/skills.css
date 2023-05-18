@@ -27,8 +27,8 @@ p.developer{
 }
 
 section.foto {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   background-color: #55204a;
   border-radius: 50%;
   position: relative;
@@ -36,13 +36,13 @@ section.foto {
 }
 
 img.filipa {
-  width: 210px;
+  width: 190px;
   position: relative;
   z-index: 1;
 }
 
 img.fundo {
-  width: 220px;
+  width: 190px;
   position: absolute;
   top: 30%;
   left: 50%;

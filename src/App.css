@@ -98,6 +98,9 @@ article.welcome{
   background-color: #eb7565;
   color: #fff7f0;
 }
+article.welcome img{
+  display: none;
+}
 
 h1.title{
   align-self: center;
@@ -109,12 +112,20 @@ article.contact{
   background-color: #552049;
   color: #030303;
   font-size: 1.2em;
+  position: relative
+  
 }
 
 
 article.contact p{
-  color: #fff;
+  color: #fff7f0;
 }
+
+article.contact img{
+  display: none;
+}
+
+
 
 @media screen and (min-width: 640px) and (max-width: 1020px){
   section.grid{
@@ -162,6 +173,48 @@ article.contact p{
   .c5xr1{
       grid-column: span 5; 
   }
+  article.welcome {
+    font-size: 1.5em;
+    position: relative;
+  }
+  
+  article.welcome img {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+  }
+
+  article.welcome .title {
+    z-index: 2;
+    margin-top: 10px;
+    
+  }
+  
+  article.contact img {
+    display: block;
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    position: absolute;
+  }
+  
+  article.contact .left-image {
+    left: 0;
+    top: 55%;
+    transform: translate(0, -50%);
+  }
+  
+  article.contact .right-image {
+    right: 0;
+    top: 30%;
+    transform: translate(0, -50%);
+  }
+  
 }
 .grid > *{
   box-shadow: 2px 2px 4px #755cde;

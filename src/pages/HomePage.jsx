@@ -21,6 +21,7 @@ export default function HomePage() {
         <img src="/images/vscode.jpg" alt="vscode"/>
       </figure>
       <article className='c1xr2 welcome'>
+        <img src="/images/fundo_rosa.png" alt="design" />
         <p className='title'>Bem-vindo!</p>
       </article>
       <figure className='c2xr2'>
@@ -36,9 +37,15 @@ export default function HomePage() {
         <p>A fase pandémica, onde a tecnologia foi o nosso maior suporte a todos os níveis, foi o gatilho para procurar mais informação e conhecimento na área. Assim, propus-me a formação especializada para aprimorar as minhas habilidades e conhecimentos.</p>
       </article>
       <article className='c5xr1 contact'>
+      <img className='left-image' src="/images/fundo_roxo.png" alt="design" />
+
+
         <p><FontAwesomeIcon icon={faEnvelope} /> info@filipaferreira.dev</p>
         <p><FontAwesomeIcon icon={faPhone} /> +351 93 83 22 319</p>
         <p><FontAwesomeIcon icon={faLinkedin} /> Linkedin</p>
+
+        <img className='right-image' src="/images/fundo_roxo2.png" alt="design" />
+
       </article>
       <article className='tag'>
         <p>&lt;/&gt;</p>

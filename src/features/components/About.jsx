@@ -45,7 +45,7 @@ export default function About() {
     <section>
       <h4 className="hi">Olá! Sou a Filipa, front-end developer junior, e estou animada para trabalhar no seu próximo projeto. </h4>
       <br />
-      <p className="developer">Estusiasmada com o mundo de desenvolvimento web, estou sempre em busca de aprimorar as minhas habilidades. Tenho uma mentalidade aberta para encarar novos desafios e estou motivada a aplicar todas as minhas habilidades para o sucesso do projeto.</p>
+      <p className="developer">Estusiasmada com o mundo de desenvolvimento web, estou sempre em busca de aprimorar as minhas habilidades. Tenho uma mentalidade aberta para encarar novos desafios e estou motivada a aplicar todas as minhas habilidades.</p>
     </section>
 
     </section>
