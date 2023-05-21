@@ -12,13 +12,19 @@ export default function SkillsDescription() {
     function handleGoBack() {
       navigate(-1);
   }
+
+  const paragraphs = skill.description.split('\n');
+
   return (
     <article className="skills-description">
         
         <h3>{skill.title}</h3>
-        <p>{skill.description}</p>
-        <button onClick={handleGoBack}>Regressar</button>
-        
+         {paragraphs.map((paragraph, index) => (
+          <React.Fragment key={index}>
+            {paragraph === '---' ? <hr /> : <p>{paragraph}</p>}
+          </React.Fragment>
+        ))}
+      <button onClick={handleGoBack}>Regressar</button>
     </article>
   )
 }

@@ -110,7 +110,6 @@ h1.title{
 article.contact{
   font-size: 1.2em;
   background-color: #552049;
-  color: #030303;
   font-size: 1.2em;
   position: relative
   
@@ -230,7 +229,7 @@ article.contact img{
 
 footer {
   
-  background-color: #fff;
+  background-color: #fff7f0;
   padding: 10px;
   margin-top: auto;
   color: #000;

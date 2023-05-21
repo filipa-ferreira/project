@@ -41,7 +41,6 @@ export default function HomePage() {
 
 
         <p><FontAwesomeIcon icon={faEnvelope} /> info@filipaferreira.dev</p>
-        <p><FontAwesomeIcon icon={faPhone} /> +351 93 83 22 319</p>
         <p><FontAwesomeIcon icon={faLinkedin} /> Linkedin</p>
 
         <img className='right-image' src="/images/fundo_roxo2.png" alt="design" />

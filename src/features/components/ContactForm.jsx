@@ -47,6 +47,12 @@ export default function ContactForm() {
   return (
     <section className='form'>
       <h1>Formulário de contato</h1>
+      {formStatus !== 'success' && (
+      <article className='intro-form'>
+      <p>Bem-vindo ao meu formulário de contato!</p>
+      <p>Se tiver alguma pergunta, sugestão ou oportunidade de colaboração, não hesite em entrar em contato.</p>
+      </article>
+      )}
       {formContent}
     </section>
   );

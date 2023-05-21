@@ -103,7 +103,7 @@ img.skills{
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: #f6a560;
+  background-color: #fff7f0;
 }
 
 
@@ -115,8 +115,15 @@ img.skills{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-weight: 400;
+  font-size: .8em;
   margin: 0 auto; /* Centralizar horizontalmente */
+
 }
+
+
+
+
 
 .skills-description button {
   background-color: #f6a560;
@@ -189,7 +196,7 @@ img.skills{
   
   section.grid-container{
       display: flex;
-      justify-content: space-between;
+      justify-content: center;
   }
   .row {
       display: flex;

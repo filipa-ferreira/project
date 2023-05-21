@@ -4,19 +4,19 @@
             "id":0,
             "title": "Liderança",
             "imageUrl":"lideranca.png",
-            "description":"Como responsável pela gestão de uma equipa de 100 colaboradores em turnos de 24 horas numa indústria transformadora, desenvolvi e aperfeiçoei várias competências para manter a equipa unida e motivada. Durante esse período, aprimorei a minha capacidade de organização, planeamento, resolução de problemas e trabalho sob pressão, inspirando e envolvendo toda a equipa para alcançarmos os melhores resultados. Desenvolvi a habilidade de equilibrar os objetivos estabelecidos e, através do mérito de uma equipa motivada, envolvida e reconhecida, conseguimos aumentar significativamente a produtividade e a qualidade do produto, resultando numa maior satisfação do cliente."
+            "description":"Como responsável pela gestão de uma equipa de 100 colaboradores em turnos de 24 horas numa indústria transformadora, desenvolvi e aperfeiçoei várias competências para manter a equipa unida e motivada. \nDurante esse período, aprimorei a minha capacidade de organização, planeamento, resolução de problemas e trabalho sob pressão, inspirando e envolvendo toda a equipa para alcançarmos os melhores resultados. \nDesenvolvi a habilidade de equilibrar os objetivos estabelecidos e, através do mérito de uma equipa motivada, envolvida e reconhecida, conseguimos aumentar significativamente a produtividade e a qualidade do produto, resultando numa maior satisfação do cliente."
         },
         {
             "id":1,
             "title": "Comunicação",
             "imageUrl":"comunicacao.png",
-            "description":"Nas várias experiências passadas, tanto em consultoria como em ambiente industrial, aprimorei ainda mais a minha capacidade de estabelecer relações interpessoais. Além disso, enquanto gestora de uma equipa, foram muitas as vezes em que me deparei com conflitos de interesses e ideias que rapidamente tive de gerir para manter o bom ambiente de trabalho entre a equipa. Também enquanto formadora desenvolvi ótimas capacidades de comunicação e à vontade para exprimir e debater ideias."
+            "description":"Nas várias experiências passadas, tanto em consultoria como em ambiente industrial, aprimorei ainda mais a minha capacidade de estabelecer relações interpessoais. \nAlém disso, enquanto gestora de uma equipa, foram muitas as vezes em que me deparei com conflitos de interesses e ideias que rapidamente tive de gerir para manter o bom ambiente de trabalho entre a equipa. \nTambém enquanto formadora desenvolvi ótimas capacidades de comunicação e à vontade para exprimir e debater ideias."
         },
         {
             "id":2,
             "title": "Flexibilidade",
             "imageUrl":"flexibilidade.png",
-            "description":"Tenho uma fácil adaptação a qualquer ambiente de trabalho e sou capaz de exercer qualquer tarefa que me seja proposta de forma proativa e comprometida com o objetivo da organização. Além disso, possuo a capacidade de tomar decisões rápidas em situações desafiadoras, avaliando prontamente as informações disponíveis e agindo de maneira eficiente. Essa agilidade de pensamento e ação permitem-me lidar com mudanças repentinas e responder de forma adequada a diferentes cenários, garantindo os resultados desejados."
+            "description":"Tenho uma fácil adaptação a qualquer ambiente de trabalho e sou capaz de exercer qualquer tarefa que me seja proposta de forma proativa e comprometida com o objetivo da organização. \nAlém disso, possuo a capacidade de tomar decisões rápidas em situações desafiadoras, avaliando prontamente as informações disponíveis e agindo de maneira eficiente. Essa agilidade de pensamento e ação permitem-me lidar com mudanças repentinas e responder de forma adequada a diferentes cenários, garantindo os resultados desejados."
         },
         {
             "id":3,
@@ -28,13 +28,13 @@
             "id":4,
             "title": "Proatividade",
             "imageUrl":"proatividade.png",
-            "description":"Forte capacidade de antecipação de problemas e resolução imediata dos mesmos. De forma a combater o absentismo e turnover bem como reconhecimento pelo trabalho da equipa fui responsável pela implementação de um sistema de prémios de assiduidade e produtividade na indústria."
+            "description":"Forte capacidade de antecipação de problemas e resolução imediata dos mesmos. \nDe forma a combater o absentismo e turnover bem como reconhecimento pelo trabalho da equipa fui responsável pela implementação de um sistema de prémios de assiduidade e produtividade na indústria."
         },
         {
             "id":5,
             "title": "Empatia",
             "imageUrl":"empatia.png",
-            "description":"Através da diversidade de contatos mantidos na minha vida profissional, desenvolvi uma forte capacidade de empatia. Valorizo a importância de ouvir ativamente as opiniões dos outros e compartilhar as minhas. Essa abordagem empática permite-me criar um ambiente inclusivo e colaborativo, no qual todos se sentem valorizados e respeitados. Além disso, a minha capacidade de empatia contribui para a resolução de conflitos e para promover a cooperação entre a equipa. Acredito que a empatia é uma ferramenta poderosa para construir relações de confiança e alcançar resultados excepcionais em equipa."
+            "description":"Através da diversidade de contatos mantidos na minha vida profissional, desenvolvi uma forte capacidade de empatia. \nValorizo a importância de ouvir ativamente as opiniões dos outros e compartilhar as minhas. Essa abordagem empática permite-me criar um ambiente inclusivo e colaborativo, no qual todos se sentem valorizados e respeitados. \nAlém disso, a minha capacidade de empatia contribui para a resolução de conflitos e para promover a cooperação entre a equipa. Acredito que a empatia é uma ferramenta poderosa para construir relações de confiança e alcançar resultados excepcionais em equipa."
         }
     ],
     "hardSkills":[

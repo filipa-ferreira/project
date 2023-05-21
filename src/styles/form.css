@@ -1,5 +1,5 @@
 body{
-  background-color: #f6a560;
+  background-color: #fff7f0;
 }
 
 .form {
@@ -9,7 +9,7 @@ body{
     margin: 50px auto;
     padding: 20px;
     background-color: #755cde;
-    /* border: 1px solid #f5a560; */
+    border: 3px solid #552049;
     border-radius: 5px;
     max-width: 600px;
    
@@ -18,13 +18,13 @@ body{
  
 .form h1 {
     font-size: 2rem;
-    margin-bottom: 20px;
     color: #f6a560;
+    margin: 0;
   }
   
   .form label {
     font-size: 1.2rem;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
     color: #f6a560;
   }
   
@@ -58,9 +58,17 @@ body{
     color: #f6a560;
   }
 
+  article.intro-form{
+    color: #552049;
+    font-size: .8em;
+    font-weight: 400;
+
+  }
+
   .success, .error {
     height: 46vh;
     font-size: 1.2em;
+    padding: 1em;
     color: #f6a560;
     font-weight: bold;
     
