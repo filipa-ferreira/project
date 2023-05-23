@@ -13,4 +13,4 @@ const portfolioSlice = createSlice({
 });
 
 export const {getWorks} = portfolioSlice.actions;
-export default portfolioSlice.reducer;
+export default portfolioSlice.reducer; 

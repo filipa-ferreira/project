@@ -1,0 +1,191 @@
+:root{
+    --verde-botoes: rgb(7, 188, 128);
+    --margin-section: 10px;
+
+
+}
+/* ********************Mini Reset CSS*************** */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    
+}
+section{
+    margin: var(--margin-section);
+}
+
+img{
+    max-width: 100%;
+}
+
+/* **************menu navegação******** */
+ul li{
+    list-style: none;
+    font-size: 1.4em;
+    
+    
+    margin: 5px;
+    padding: 8px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul{
+    min-height: 20vh;
+    background-color: var(--verde-botoes);   
+}
+
+/* *************** section 1********* */
+
+section.image{
+
+    min-height: 40vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+    padding: 0.5em;
+
+    background-color: rgb(211, 208, 208);
+    background-image: url(images/landing-page-banner.jpg);
+    background-size: cover;
+
+    border-radius: 10px;
+    
+}
+
+section.image h1{
+    color: white;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+section.image p{
+    color: white;
+    font-size: 1.3em;
+    text-align: justify;
+    letter-spacing: 0.2em;
+}
+
+.btn{
+    font-size: 1.6em;
+    padding: 0.6em;
+    border: 2px solid white;
+    border-radius: 10px;
+
+    width:180px;
+}
+
+/* *************** section 2********* */
+
+section.principal{
+    min-height: 30vh;
+    text-align: center;
+    
+}
+
+p.paragrafos{
+    color: rgb(34, 34, 34);
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.btn-2{
+    color: var(--verde-botoes);
+
+    
+    padding: 0.2em 0.5em;
+    border: 2px solid var(--verde-botoes);
+    border-radius: 10px;
+
+    
+}
+
+footer{
+    min-height: 10vh;
+    margin-top: 30px;
+    
+    background-color: rgb(36, 35, 35);
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.p-footer{
+    display: none;
+    color: white;
+}
+
+@media screen and (min-width: 760px){
+
+    section{
+        margin: 10px 100px;
+    }
+
+/* **************menu navegação******** */
+    nav ul{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    
+        gap: 30px;
+    }
+    
+    .contact{
+        margin-left: auto;
+        padding: 10px;
+    }
+
+/* *************** section 1********* */
+
+    section.image{
+    padding: 4em;
+}
+
+/* *************** section 2********* */
+    section.principal{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 40px;
+        flex-wrap: wrap;
+    }
+
+/* ***************Footer************* */
+    footer{
+        justify-content: flex-end;
+        padding: 0 2em;
+
+    }
+    .p-footer{
+        display: inline;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    section{
+        margin: 20px;
+        
+    }
+
+    section.principal{
+        flex-wrap: nowrap;
+    }
+}

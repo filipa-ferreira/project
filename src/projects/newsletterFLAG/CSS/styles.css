@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+/* mini reset CSS à la João */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+/* Estilos gerais para o body */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: rgb(201, 206, 206);
+}
+/* Main */
+main{
+    width: 640px;
+    /* tamanho normal das newsletter 640px */
+    margin: 10px auto;
+    padding: 20px;
+
+    background-color: white;
+}
+/* header */
+header{
+    height: 300px;
+    padding: 70px;
+    
+    /* background-color: rgb(228, 210, 188);
+    background-image: url(../3-newsletter-1-FLAG/images/reuniao.jpg);
+    background-repeat: no-repeat;
+    background-position: center center; */
+    background: gray url(../3-newsletter-1-FLAG/images/reuniao.jpg) no-repeat center center;
+    background-size: cover;
+
+    text-align: center;
+}
+
+header > *, section p{
+    margin: 20px 0;
+}
+header h1{
+    color: orange;
+    text-shadow: 1px 1px 5px rgb(68,68,66);
+    
+}
+header p{
+    font-size: 1.2em;
+    color: white;
+    text-shadow: 1px 1px 5px rgb(68,68,66);
+}
+
+a.btn{
+    background-color: darkorange;
+    color: white;
+    text-decoration: none;
+
+    display: inline-block;
+    padding: 0.8em;
+    margin-top: 15px;
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 5px white;
+}
+/* section */
+section.photos{
+    text-align: center;
+
+    padding: 20px 0;
+    border-top: 2px solid gray;
+}
+section.photos h1{
+    text-transform: uppercase;
+    font-weight: normal;
+
+    margin: 20px 0;
+}
+section.photos img{
+    border: 2px solid gray;
+    padding: 2px;
+
+    opacity: 0.7;
+}
+section.photos img.middle{
+    margin: 0 63px;
+}
+
+section.photos img:hover{
+    opacity: 1;
+}
+/* footer */
+footer{
+    background-color: orange;
+    color: white;
+
+    text-align: center;
+    
+    padding: 50px;
+}
+
+
+

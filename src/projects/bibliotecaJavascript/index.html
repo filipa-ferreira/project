@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <h1>Biblioteca de Livros</h1>
+        <!--    
+           1 - por botao ou checkbox. ou radio buttons, poder filtrar livros lidos, nao lidos ou todos
+
+           2 - acrescentar botao delete, para apagar livro (dataset)
+
+           3 - acrecntar aos filtros pesquisa por titulo ('change')
+        -->
+
+       
+
+        
+    <section class="filters" id="filters">
+       <!--  <div>
+            <input type="checkbox" id="readCk">
+            <label for="readCk">Read</label>
+            <input type="checkbox" id="notReadCk">
+            <label for="notReadCk">Not Read</label>
+        </div> -->
+        <div>
+            <button class="btn" id="allBtn">All</button>
+            <button class="btn" id="readBtn">read</button>
+            <button class="btn" id="notReadBtn">not read</button>
+        </div>
+        <div>
+            <label for="searchTxt">Searc by Title:</label>
+            <input type="search" id="searchTxt" class="searchTxt">
+        </div>
+        <div><button class="btn" id="showFormBtn">Show Form</button></div>
+    </section>
+
+    <section  class="addEditForm">
+       <h1>Add & Edit Form</h1>
+        <form id="addEditForm">
+           <div>
+                <label for="titleTxt">Title: </label>
+                <input type="text" id="titleTxt">
+           </div>
+
+           <div>
+                <label for="authorTxt">Author: </label>
+                <input type="text" id="authorTxt">
+           </div>
+
+            <div>
+                <label for="imageTxt">Image Url: </label>
+                <input type="text" id="imageTxt">
+            </div>
+
+            <div>
+                <label for="imageGrTxt">Image Url (Big): </label>
+                <input type="text" id="imageGrTxt">
+            </div>
+
+            <div>
+                <label for="alreadyReadChb">AlreadyRead: </label>
+                <input type="checkbox" id="alreadyReadChb">
+            </div>
+            <button id="submitBtn" class="btn"> addBook </button>
+       </form>
+    </section>
+
+    <section class="grid" id="grid">
+       
+        <!-- <article>
+            <h1>titulo do licro</h1>
+            <h2>autor do livro</h2>
+            <img src="livros/blockchain.jpg" alt="descricao" />
+            <p>Already read: ✅ ❌</p>
+        </article> -->
+
+    </section>
+
+    <section class="popup" id="popup">
+        <img src="livros/jojGr.png" alt="">
+    </section>
+
+    
+    <script type="module" src="js/index.js" defer></script>
+</body>
+</html>

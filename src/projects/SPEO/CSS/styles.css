@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+body {
+	font-family: 'Asap', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', sans-serif;
+}
+
+header {
+	background-image: url('../images/index-banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	color: white;
+	text-transform: uppercase;
+}
+
+nav {
+	background-color: #333333;
+	font-size: 1.2em;
+}
+
+.active {
+	border-bottom: #ba0216 solid 4px;
+}
+
+nav a {
+	color: white;
+	text-transform: uppercase;
+	font-size: 0.9em;
+}
+
+header h2 {
+	font-size: 1em;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.btn {
+	margin: 0 auto;
+	background-color: #ba0216;
+	color: white;
+	font-size: 0.5em;
+	line-height: 1.5em;
+	text-transform: uppercase;
+	padding: 5px 35px;
+	font-size: 0.7em;
+	font-weight: 600;
+	border: #ba0216 solid 2px;
+	width: fit-content;
+}
+
+.white-btn {
+	background-color: white;
+	color: #ba0216;
+}
+
+.en {
+	height: 20px;
+	padding: 0;
+	font-weight: 400;
+	background-color: #ba0216;
+	color: white;
+	font-size: 0.5em;
+	line-height: 1.5em;
+	font-size: 0.7em;
+	border: #ba0216 solid 2px;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #333333;
+	font-size: 3em;
+	font-weight: 400;
+	padding-top: 30px;
+}
+
+.hr-center {
+	border-top: 4px solid #ba0216;
+	width: 100px;
+	margin: 2px auto;
+	margin-bottom: 30px;
+}
+
+.hr-left {
+	border-top: 4px solid #ba0216;
+	width: 30px;
+	padding-bottom: 15px;
+}
+
+span {
+	font-weight: 600;
+}
+
+p {
+	font-size: 0.9em;
+}
+
+.mini {
+	background-color: white;
+	color: #333333;
+	box-shadow: 2px 2px 5px #333333;
+}
+
+.mini img {
+	border-bottom: 2px solid #ba0216;
+}
+
+h3 {
+	color: #333333;
+	padding: 5px 0;
+	text-transform: uppercase;
+}
+.highlights {
+	background-color: #f4f4f4;
+}
+
+.testemunhos {
+	background-color: #f4f4f4;
+	border-top: #333333 solid 1px;
+	border-bottom: #333333 solid 1px;
+}
+
+h2 {
+	color: #333333;
+	margin: 10px 0;
+}
+
+a:hover {
+	box-shadow: 2px 2px 5px #333333;
+}
+
+.newsletter {
+	background-color: #ba0216;
+	color: white;
+	font-size: 0.8em;
+}
+
+.newsletter input {
+	height: 2em;
+	width: 250px;
+	text-align: end;
+	font-size: 1.5em;
+	padding: 2px;
+}
+
+.info {
+	background-color: #333333;
+	color: white;
+	font-size: 0.8em;
+}
+
+.info li {
+	padding-bottom: 10px;
+}
+
+.info input {
+	height: 1.5em;
+	width: 200px;
+	text-align: end;
+	font-size: 1em;
+	padding: 2px;
+	border-bottom: #ba0216 solid 2px;
+}
+
+h4 {
+	color: white;
+	font-size: 1.2em;
+	padding-bottom: 15px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.info a {
+	color: white;
+}
+
+.infor ul,
+.study ul {
+	list-style-type: square;
+	color: grey;
+	text-align: left;
+}
+
+.where ul {
+	list-style-type: none;
+	text-align: left;
+}
+
+.material-symbols-outlined {
+	font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 48;
+	color: #ba0216;
+	font-size: 2em;
+}
+
+.poster {
+	box-shadow: 2px 2px 5px #333333;
+}
+
+.highlights p,
+.actividades p,
+.testemunhos p,
+.testemunhos quote {
+	color: grey;
+}
+
+.white {
+	border-top-color: white;
+	color: white;
+}
+
+.red {
+	color: #ba0216 !important;
+}
+
+.copyright {
+	background-color: #333333;
+	color: white;
+	font-size: 0.7em;
+	font-weight: 200;
+}
+
+.date {
+	color: #ba0216;
+	text-transform: uppercase;
+}

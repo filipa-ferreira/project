@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+}
+body > h1 {
+  margin: 0.5rem 0;
+  padding: 1rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  padding: 0.5rem 1rem;
+  background-color: rgb(53, 79, 13);
+  color: #FFF;
+  border-radius: 0.5rem;
+}
+
+section.filters {
+  background-color: #d0ef9f;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+section.addEditForm {
+  background: #bfbfbf;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 0;
+  overflow: hidden;
+  transition: height 300ms ease-out;
+}
+section.addEditForm.open {
+  height: 400px;
+}
+section.addEditForm div {
+  padding: 0.5rem;
+}
+section.addEditForm div:last-of-type {
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+section.addEditForm input, section.addEditForm label {
+  width: 20rem;
+  text-align: left;
+  display: block;
+  padding: 0.3rem;
+}
+section input.searchTxt {
+  padding: 0.5rem;
+  outline: none;
+}
+section.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 5px;
+}
+section.grid article {
+  border: 2px solid gray;
+}
+section.grid article > * {
+  margin: 0.8em 0;
+}
+section.grid .thumbnail {
+  cursor: zoom-in;
+}
+section.popup {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+section.popup.open {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: zoom-out;
+}
+
+/*# sourceMappingURL=index.css.map */

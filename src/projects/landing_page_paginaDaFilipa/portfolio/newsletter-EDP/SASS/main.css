@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-sizing: border-box;
+}
+
+body {
+  width: 640px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 10px auto;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+a.btn {
+  background-color: rgb(225, 13, 49);
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  padding: 1em;
+  border-radius: 20px;
+}
+
+a {
+  color: #fff;
+}
+
+header {
+  background-color: rgb(246, 240, 240);
+  text-align: center;
+  padding-bottom: 1em;
+}
+header h1 {
+  text-transform: uppercase;
+  color: rgb(225, 13, 49);
+  font-size: 0.8em;
+}
+header h2 {
+  color: rgb(28, 224, 224);
+  font-size: 2.4em;
+}
+header p {
+  padding: 0.5em 2em;
+}
+
+main {
+  padding: 1em;
+}
+main article {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+main section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 45vh;
+  gap: 15px;
+}
+
+aside {
+  height: 40vh;
+  background: rgb(192, 239, 223);
+  background-image: url(../3-newsletter-2-EDP/folha1.png), url(../3-newsletter-2-EDP/folhadrt.png);
+  background-repeat: no-repeat, no-repeat;
+  background-size: 100px, 100px;
+  background-position: left, bottom right;
+  text-align: center;
+}
+aside article {
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer div {
+  background-color: rgb(55, 54, 54);
+  text-align: center;
+  padding: 1em;
+}
+footer article {
+  height: 30vh;
+  background-color: rgb(32, 32, 32);
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}/*# sourceMappingURL=main.css.map */

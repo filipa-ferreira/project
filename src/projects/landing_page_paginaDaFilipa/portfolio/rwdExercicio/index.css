@@ -1,0 +1,190 @@
+:root{
+    --background-green: rgb(9, 93, 9)
+}
+
+/* mini reset CSS */
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+/* regras globais */
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img, video{
+    max-width: 100%;
+}
+
+a.btn{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: .4em .6em;
+    border-radius: 8px;
+}
+
+/* Header principal*/
+
+header.menu{
+    background-color: var(--background-green);
+
+    padding: 15px 15px;
+    min-height: 80px;
+
+}
+
+header.menu ul{
+    list-style-type: none;
+    margin-top: 1em;
+
+
+}
+
+header.menu ul li{
+    padding: .4em;
+}
+
+header.menu ul a{
+    text-decoration: none;
+    color: white;
+}
+
+/* main content */
+
+header.banner{
+    background-image: url(images/landing-page-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+    width: 90vw;
+    min-height: 25vh;
+    max-height: 350px;
+    border-radius: 12px;
+    margin: 10px auto;
+    padding: 10px;
+
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+header.banner a.btn{
+    color: white;
+    border-color: white;
+    
+}
+
+article.card{
+    text-align: center;
+    width: 50vw;
+    min-height: 25vh;
+    max-width: 300px;
+    margin: 15px auto;
+}
+
+article.card{
+    margin-top: 15px;
+}
+
+article.card a.btn{
+    color: var(--background-green);
+    border-color: var(--background-green);
+    
+}
+article.card p{
+    margin: 15px;
+}
+
+
+/* footer */
+
+footer{
+    height: 15vh;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    text-align: center;
+    color: white;
+    background-color: var(--background-green);
+}
+.copy{
+    display: none;
+}
+
+@media screen and (min-width:720px){
+
+    /* Menu e nav */
+    header.menu{
+        display: flex;
+        gap: 15px;
+    }
+
+    header.menu figure{
+        flex: 1;
+    }
+
+    header.menu nav{
+        flex: 3;
+    }
+
+    header.menu ul{
+        display: flex;
+        
+    }
+
+    header.menu li:last-child{
+        margin-left: auto;
+    }
+/* main content */
+    header.banner{
+        min-width: 35vh;
+    }
+
+    main.content section{
+        display: flex;
+        flex-flow: row wrap;
+    }
+
+    /* footer */
+    footer{
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+    }
+    footer > *{
+        flex: 1;
+        padding: 0 20px;
+    }
+    aside.social{
+        text-align: right;
+    }
+    .copy{
+        display: block;
+    }
+}
+
+@media screen and (min-width:920px){
+    header.banner{
+        min-height: 45vh;
+    }
+
+    main.content section{
+        flex-wrap: nowrap;
+    }
+    main.content section > *{
+        flex: 1;
+    }
+}

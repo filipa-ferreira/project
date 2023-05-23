@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			http-equiv="X-UA-Compatible"
+			content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Web Design</title>
+
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+			crossorigin="anonymous" />
+
+		<link
+			rel="stylesheet"
+			href="CSS/styles.css" />
+	</head>
+	<body>
+		<header class="container-fluid sticky-top bg-success">
+			<nav class="navbar">
+				<ul class="nav">
+					<li class="border-0 bg-transparent">
+						<a
+							href="index.html"
+							class="nav-link">
+							<img
+								src="images/ui/Logo.png"
+								alt="logo" />
+						</a>
+					</li>
+					<li class="border-0 bg-transparent">
+						<a
+							href="index.html"
+							class="text-decoration-none text-white nav-link"
+							>New Features</a
+						>
+					</li>
+					<li class="border-0 bg-transparent">
+						<a
+							href="gallery.html"
+							class="text-decoration-none text-white nav-link"
+							>Gallery</a
+						>
+					</li>
+					<li class="border-0 bg-transparent">
+						<a
+							href="articles.html"
+							class="text-decoration-none text-white nav-link"
+							>Articles</a
+						>
+					</li>
+					<li class="border-0 bg-transparent contact">
+						<a
+							href="#"
+							class="text-decoration-none text-white nav-link active"
+							aria-current="page"
+							>Contact</a
+						>
+					</li>
+				</ul>
+			</nav>
+		</header>
+
+		<main class="container pt-5">
+			<section class="container banner banner-contact text-white rounded p-5">
+				<h1>Tell us what you think!</h1>
+			</section>
+
+			<section class="pt-5">
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
+					consequuntur, tenetur corporis dolorem repellat omnis repellendus
+					necessitatibus fugit dolorum porro aliquid. Ipsum eum voluptas vel
+					similique cum consequuntur dicta dolor.
+				</p>
+			</section>
+
+			<form
+				action="http://httpbin.org/anything"
+				method="get"
+				class="form">
+				<div class="pt-3">
+					<label
+						for="name"
+						class="form-label"
+						>Name:</label
+					>
+					<input
+						class="form-control"
+						type="text"
+						id="name"
+						name="name"
+						placeholder="Enter keywords here"
+						required />
+				</div>
+				<div class="pt-3">
+					<label
+						for="name"
+						class="form-label"
+						>Password:</label
+					>
+					<input
+						class="form-control"
+						type="password"
+						id="password"
+						name="password"
+						placeholder="Enter keywords here"
+						required />
+				</div>
+				<div class="pt-3">
+					<label
+						for="name"
+						class="form-label"
+						>Message:</label
+					>
+					<textarea
+						class="form-control"
+						name="message"
+						id="message"
+						placeholder="Enter keywords here"
+						required></textarea>
+				</div>
+
+				<div class="pt-3 submit-btn">
+					<input
+						type="submit"
+						value="Submit"
+						class="submit btn btn-outline-success" />
+				</div>
+			</form>
+		</main>
+		<footer class="container-fluid fixed-bottom bg-dark text-white">
+			<div class="learn">Learn to use websites using CSS</div>
+			<div class="socials">
+				<figure>
+					<img
+						src="images/ui/icon_facebook.png"
+						alt="facebook" />
+				</figure>
+				<figure>
+					<img
+						src="images/ui/icon_google.png"
+						alt="google" />
+				</figure>
+				<figure>
+					<img
+						src="images/ui/icon_twitter.png"
+						alt="twitter" />
+				</figure>
+			</div>
+		</footer>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+			crossorigin="anonymous"></script>
+	</body>
+</html>

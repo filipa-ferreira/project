@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+img{
+    max-width: 100%; 
+    /* responsive img */
+}
+h1{
+    margin: 10px;
+}
+
+p{
+    margin: 1em 0;
+    font-size: 1.2em;
+}
+
+section.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5px;
+    padding: .5em;
+}
+
+section.grid article{
+    border: 1px dashed gray;
+}
+section.grid article >*{
+    margin: 1em 0;
+}

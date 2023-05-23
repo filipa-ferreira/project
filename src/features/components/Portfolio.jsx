@@ -19,6 +19,16 @@ export default function Portfolio() {
           });
       }, []);
 
+          useEffect(()=> {
+        fetch('http://localhost:3000/portfolio')
+        .then(resp=> resp.json())
+        .then(data => dispatch(getWorks(data)))
+        .catch((error) => {
+            console.log("Ocorreu um erro:", error);
+            setError("Ocorreu um erro. Tente novamente mais tarde.");
+          });
+      }, []);
+
   return (
     <section>
         <Works/>

@@ -7,11 +7,12 @@ export default function Works() {
 
     const works = useSelector(state => state.portfolio.works);
 
+    
+
   return (
     <section className='container-portfolio'>
       <section className='grid-portfolio'>
-        {
-            works.map(w => <Work
+        {            works.map(w => <Work
                                     key={w.id}
                                     work={w}
                                     />)
@@ -20,3 +21,5 @@ export default function Works() {
     </section>
   )
 }
+
+
