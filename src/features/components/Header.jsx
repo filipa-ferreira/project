@@ -34,7 +34,7 @@ export default function Header() {
         <Nav className="mr-auto">
           <Link className='btn' to="/homepage">Início</Link>
           <Link className='btn' to="/about">Sobre mim</Link>
-          <Link className='btn' to="#">Portfolio</Link>
+          <Link className='btn' to="/portfolio">Portfolio</Link>
           <Link className='btn' to="/contactForm">Contato</Link>
         </Nav>
       </Navbar.Collapse>

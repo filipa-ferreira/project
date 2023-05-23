@@ -10,6 +10,9 @@ import NotFound from './pages/NotFound';
 import ContactForm from './features/components/ContactForm';
 import SkillsDescription from './features/components/SkillsDescription';
 import About from './features/components/About';
+import Portfolio from './features/components/Portfolio';
+
+
 
 
 
@@ -26,7 +29,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path='/homepage' element={<HomePage/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/description/:id' element={<SkillsDescription/>}/>
-          
+          <Route path='/portfolio' element={<Portfolio/>}/>
           <Route path='/contactForm' element={<ContactForm/>}/>
           <Route path='*' element={<NotFound/>}/>
 
