@@ -5,15 +5,15 @@ export default function Work({ work }) {
 
   const { description, title, imageUrl, path } = work;
 
-const handleClick = () => {
-    const projectUrl = `${window.location.origin}/src/projects${path}/index.html`;
-    window.open(projectUrl, '_blank');
+  const handleClick = () => {
+    window.open(path, '_blank');
   };
 
+
   return (
-    <article className="card-work" onClick={handleClick}>
+    <article className="card-work">
       <h1>{title}</h1>
-      <img src={`/images/${imageUrl}`} alt={title} />
+      <img src={`/images/${imageUrl}`} alt={title} onClick={handleClick} />
       <p>{description}</p>
     </article>
   );

@@ -1,9 +1,9 @@
 
 import { Outlet } from 'react-router-dom'
 import './App.css'
-import Footer from './features/components/Footer'
-import Header from './features/components/Header'
 
+import Header from './features/components/Header'
+import Footer from './pages/Footer'
 
 
 function App() {

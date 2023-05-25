@@ -75,84 +75,84 @@
             "title": "The Analog Specialist",
             "imageUrl": "boxModel.png",
             "description": "Página elaborada com HTML5 semântico e CSS3.",
-            "path": "/theAnalogSpecialist"
+            "path": "https://filipaferreira.dev/portfolio/theAnalogSpecialist/"
         },
         {
             "id":13,
             "title": "Newsletter Flag",
             "imageUrl": "newsletter_flag.png",
             "description": "Newsletter elaborada com HTML5 semântico e CSS3 (box model).",
-            "path": "/newsletterFlag"
+            "path": "https://filipaferreira.dev/portfolio/newsletter-FLAG/"
         },
         {
             "id":14,
             "title": "Newsletter TeaShop",
             "imageUrl": "newsletter_teashop.png",
             "description": "Newsletter elaborada com HTML5 semântico e CSS3 (flex box).",
-            "path": "/newsletterTeashop"
+            "path": "https://filipaferreira.dev/portfolio/newsletter-Teashop/"
         },
         {
             "id":15,
-            "title": "Newsletter EDP",
-            "imageUrl": "newsletter_edp.png",
-            "description": "Newsletter elaborada com HTML5 semântico e SASS.",
-            "path":"/newsletterEDP"
-        },
-        {
-            "id":16,
             "title": "Design Website",
             "imageUrl": "designBootstrap.png",
             "description": "Página RWD com recurso a bootstrap.",
-            "path": "/webDesign"
+            "path": "https://filipaferreira.dev/portfolio/webDesign/"
         },
         {
-            "id":17,
+            "id":16,
             "title": "SPEO",
             "imageUrl": "speo.png",
             "description": "Clone de Website da SPEO com HTML5 e CSS3.",
-            "path": "/SPEO"
+            "path": "https://filipaferreira.dev/portfolio/SPEO/"
         },
         {
-            "id":18,
+            "id":17,
             "title": "Galeria de imagens",
             "imageUrl": "gallery.png",
             "description": "Galeria de imagens RWD com grid.",
-            "path": "/CSS-Grids-responsive"
+            "path": "https://filipaferreira.dev/portfolio/gallery/"
         },
         {
-            "id":19,
+            "id":18,
             "title": "Localização atual",
             "imageUrl": "maps.png",
             "description": "Aplicação com recurso a Google Maps API.",
-            "path": "/googleMaps"
+            "path": "https://filipaferreira.dev/portfolio/googleMaps/"
         },
         {
-            "id":20,
+            "id":19,
             "title": "My Tube",
             "imageUrl": "myTube.png",
             "description": "Aplicação de reprodução de vídeos com recurso à API HTMLMediaElement.",
-            "path": "/myTube"
+            "path": "https://filipaferreira.dev/portfolio/myTube/"
+        },
+        {
+            "id":20,
+            "title": "Animação OVNI",
+            "imageUrl": "canvasAPI.png",
+            "description": "Animação com Canvas API",
+            "path":"https://filipaferreira.dev/portfolio/canvas/"
         },
         {
             "id":21,
             "title": "Biblioteca de Livros",
             "imageUrl": "bibliotecaJavascript.png",
             "description": "Biblioteca de Livros: HTML5, CSS3 e JavaScript (manipulação do DOM, tratamento de eventos e manipulação de dados).",
-            "path": "/bibliotecaJavascript"
+            "path": "https://filipaferreira.dev/portfolio/bibliotecaJavascript/"
         },
         {
             "id":22,
             "title": "Landing Page",
             "imageUrl": "landing_page.png",
-            "description": "Página para me apresentar e mostrar o meu trabalho efetuada com recurso a HTML5, CSS3 e JavaScript.",
-            "path": "/landing_page_paginaDaFilipa"
+            "description": "Página para me apresentar e mostrar o meu trabalho recurso a HTML5, SASS e JavaScript.",
+            "path": "https://filipaferreira.dev/portfolio/landing_page_paginaDaFilipa/"
         },
         {
             "id":23,
             "title": "Biblioteca de Livros",
             "imageUrl": "bibliotecaReact.png",
             "description": "Biblioteca de livros com recurso a React, RTK e redux.",
-            "path":"/biblioteca-react"
+            "path":"https://filipaferreira.dev/portfolio/bibliotecaReact/"
         }
     ]
 }
