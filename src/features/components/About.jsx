@@ -12,25 +12,18 @@ export default function About() {
 
     const [error, setError] = useState();
 
-    useEffect(()=>{
-        fetch ('http://localhost:3000/softSkills')
-        .then(resp => resp.json())
-        .then(data => dispatch(getSkills(data)))
+    useEffect(() => {
+      fetch("http://localhost:4002/api/data")
+        .then((resp) => resp.json())
+        .then((data) => {
+          dispatch(getSkills(data.softSkills));
+          dispatch(getHardSkills(data.hardSkills));
+        })
         .catch((error) => {
           console.log("Ocorreu um erro:", error);
           setError("Ocorreu um erro. Tente novamente mais tarde.");
         });
     }, []);
-
-    useEffect(()=>{
-      fetch ('http://localhost:3000/hardSkills')
-      .then(resp => resp.json())
-      .then(data => dispatch(getHardSkills(data)))
-      .catch((error) => {
-        console.log("Ocorreu um erro:", error);
-        setError("Ocorreu um erro. Tente novamente mais tarde.");
-      });
-  }, []);
 
 
   return (
