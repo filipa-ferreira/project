@@ -16,12 +16,12 @@
 
 h4.hi{
   color: #030303;
-  font-size: 1.2em;
+  font-size: 1.4em;
   text-align: justify;
   
 }
 p.developer{
-  font-size: 1em;
+  font-size: 1.2em;
   color: #7a746e;
   text-align: justify;
 }
@@ -77,7 +77,7 @@ h2.hard-skills{
 
 
 h3.skill-title{
-  font-size: 1.2em;
+  font-size: 2em;
   color: #552049;
   margin-bottom: 10px; 
 }
@@ -96,7 +96,9 @@ section.container-soft-skills, section.container-hard-skills{
 
 
 img.skills{
-  max-width: 200px;
+  width: 200px;
+  max-width: 100%;
+  height: auto;
   margin: 10px 0px;
   
 }
@@ -165,7 +167,7 @@ img.skills{
 @media screen and (min-width: 1020px){
 
   h4.hi{
-    font-size: 1.4em;
+    font-size: 1.6em;
     
   }
   p.developer{
@@ -174,8 +176,7 @@ img.skills{
   
 
   img.skills{
-      max-width: 100px;
-      margin: 10px 0px;
+    width: 350px;
   
   }
 
@@ -186,6 +187,7 @@ img.skills{
   h2.soft-skills, h2.hard-skills{
       height: 10vh;
       width: 300px;
+      font-size: 3em;
 
       border-radius: 5px;
   

@@ -27,7 +27,7 @@ export default function HomePage() {
         <img src="/images/programming.jpg" alt="to-program"/>
       </figure>
       <article className='c2xr1 text two'>
-        <p>A colaboração com desenvolvedores de software num projeto para a indústria conserveira despertou a minha curiosidade pela área e a fase pandémica reforçou a importância da tecnologia em todos os níveis.</p>
+        <p>A colaboração com desenvolvedores de software despertou a minha curiosidade pela área e a fase pandémica reforçou a importância da tecnologia a todos os níveis.</p>
       </article>
       <figure className='www'>
         <img src="/images/www.jpg" alt="web"/>
@@ -39,8 +39,14 @@ export default function HomePage() {
       <img className='left-image' src="/images/fundo_roxo.png" alt="design" />
 
 
-        <p><FontAwesomeIcon icon={faEnvelope} /> info@filipaferreira.dev</p>
-        <p><FontAwesomeIcon icon={faLinkedin} /> Linkedin</p>
+      <p>
+      <a href="mailto:info@filipaferreira.dev" className='email'>
+      <FontAwesomeIcon icon="envelope" /> info@filipaferreira.dev
+      </a>
+      </p>
+      <a href="#" className='linkedin'>
+      <p><FontAwesomeIcon icon={faLinkedin} /> Linkedin</p>
+      </a>
 
         <img className='right-image' src="/images/fundo_roxo2.png" alt="design" />
 

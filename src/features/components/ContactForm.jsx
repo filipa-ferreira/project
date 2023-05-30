@@ -3,9 +3,11 @@ import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import '../../styles/form.css';
 
+
 export default function ContactForm() {
   const [formStatus, setFormStatus] = useState();
   const form = useRef();
+  
 
   
 
@@ -24,7 +26,10 @@ export default function ContactForm() {
   switch (formStatus) {
     case 'success':
       formContent =
-        <p className='success'>Obrigado pelo seu contato!</p>;
+      <div>
+        <p className='success'>Obrigado pelo seu contato!</p>
+        <img src="/images/thank-you.png" alt="thank you" />
+      </div>
       break;
     case 'error':
       formContent =
@@ -54,6 +59,7 @@ export default function ContactForm() {
       </article>
       )}
       {formContent}
+      
     </section>
   );
 }
