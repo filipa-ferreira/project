@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import { useDispatch} from "react-redux";
 import { getHardSkills } from "../hardSkills/hardSkillsSlice";
@@ -10,8 +11,9 @@ export default function About() {
 
     let dispatch = useDispatch();
 
-    const [error, setError] = useState();
+    const [error, setError] = useState();//criar state para o erro
 
+    //requisição da data.json:
     useEffect(() => {
       fetch("http://localhost:4002/api/data")
         .then((resp) => resp.json())
