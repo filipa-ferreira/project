@@ -55,6 +55,7 @@ article.card-work p{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         
+        
         /* justify-content: center;
         align-items: center; */
        
@@ -67,6 +68,7 @@ article.card-work p{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
+        margin-bottom: 10px;
         
         
 }

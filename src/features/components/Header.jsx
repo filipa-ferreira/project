@@ -9,9 +9,9 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
 
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false);//controlar a exibição do menu
 
-    const handleMenuToggle = () => {
+    const handleMenuToggle = () => { //alternar o valor do estado menuOpen quando click no botão do menu
       setMenuOpen(!menuOpen);
     };
 
