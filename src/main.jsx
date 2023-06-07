@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 import App from './App'
 import './index.css'
 import { Provider } from 'react-redux';
-import store from './App/store';
+import store from './app/store';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import NotFound from './pages/NotFound';
@@ -11,11 +11,6 @@ import ContactForm from './features/components/ContactForm';
 import SkillsDescription from './features/components/SkillsDescription';
 import About from './features/components/About';
 import Portfolio from './features/components/Portfolio';
-
-
-
-
-
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(

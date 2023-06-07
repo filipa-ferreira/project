@@ -7,7 +7,7 @@ export default function SkillsDescription() {
     let params = useParams();
     let navigate = useNavigate();
 
-    let skill = useSelector(state=>state.softSkills.skills.find(s => s.id == params.id));
+    let skill = useSelector(state => state.softSkills.softSkills.find(s => s.id == params.id));
 
     function handleGoBack() {
       navigate(-1);

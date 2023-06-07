@@ -2,9 +2,9 @@
 
 const express = require('express');//criar o servidor http
 const axios = require('axios');//biblioteca para requisições http
-const path = require('path');
+// const path = require('path');
 
-const app = express();//instância do express
+const app = express();//instância do express (framework web para node .js que simplifica o desenvolvimento de apl web )
 const port = 4002;//definir a porta
 
 // Middleware para lidar com as configurações de CORS

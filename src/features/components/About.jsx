@@ -1,33 +1,8 @@
 
-import { useEffect, useState } from "react";
-import { useDispatch} from "react-redux";
-import { getHardSkills } from "../hardSkills/hardSkillsSlice";
-import { getSkills } from "../softSkills/skillsSlice";
 import HardSkillsList from "./HardSkillsList";
 import SkillsList from "./SkillsList";
 
-
 export default function About() {
-
-    let dispatch = useDispatch();
-
-    const [error, setError] = useState();//criar state para o erro
-
-    //requisição da data.json:
-    useEffect(() => {
-      fetch("http://localhost:4002/api/data")
-        .then((resp) => resp.json())
-        .then((data) => {
-          dispatch(getSkills(data.softSkills));
-          dispatch(getHardSkills(data.hardSkills));
-        })
-        .catch((error) => {
-          console.log("Ocorreu um erro:", error);
-          setError("Ocorreu um erro. Tente novamente mais tarde.");
-        });
-    }, []);
-
-
   return (
     <article>
    

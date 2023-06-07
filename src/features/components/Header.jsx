@@ -35,7 +35,7 @@ export default function Header() {
           <Link className='btn' to="/homepage">Início</Link>
           <Link className='btn' to="/about">Sobre mim</Link>
           <Link className='btn' to="/portfolio">Portfolio</Link>
-          <Link className='btn' to="/contactForm">Contato</Link>
+          <Link className='btn' to="/contactForm">Contacto</Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
