@@ -27,7 +27,7 @@ export default function ContactForm() {
     case 'success':
       formContent =
       <div>
-        <p className='success'>Obrigado pelo seu contato!</p>
+        <p className='success'>Obrigado pelo seu contacto!</p>
         <img src="/images/thank-you.png" alt="thank you" />
       </div>
       break;
@@ -51,11 +51,11 @@ export default function ContactForm() {
 
   return (
     <section className='form'>
-      <h1>Formulário de contato</h1>
+      <h1>Formulário de contacto</h1>
       {formStatus !== 'success' && (
       <article className='intro-form'>
-      <p>Bem-vindo ao meu formulário de contato!</p>
-      <p>Se tiver alguma pergunta, sugestão ou oportunidade de colaboração, não hesite em entrar em contato.</p>
+      <p>Bem-vindo ao meu formulário de contacto!</p>
+      <p>Se tiver alguma pergunta, sugestão ou oportunidade de colaboração, não hesite em contactar.</p>
       </article>
       )}
       {formContent}

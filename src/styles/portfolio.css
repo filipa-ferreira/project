@@ -54,12 +54,7 @@ article.card-work p{
     section.grid-portfolio{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        
-        
-        /* justify-content: center;
-        align-items: center; */
-       
-       
+      
     }
 }
 
@@ -72,6 +67,5 @@ article.card-work p{
         
         
 }
-
 
 }
